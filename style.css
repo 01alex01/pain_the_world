@@ -18,13 +18,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 4.5rem;
-    background-color: red;
     height: auto;
 }
 
 .nav-bar .logo {
-    width: 4.6875rem;
-    height: 4.6875rem;
+    width: 5.6875rem;
+    height: 5.6875rem;
     flex-shrink: 0;
 }
 
@@ -40,10 +39,28 @@ header {
     list-style: none;
 }
 
+
+
+
+.nav-bar ul li a {
+    padding: 10px 30px;
+    color: #141414;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.4375rem;
+    /* 343.75% */
+    letter-spacing: -0.02rem;
+    text-decoration: none;
+
+}
+
 .nav-bar ul .btn {
     display: flex;
     height: 2.1875rem;
-    padding: 0.625rem 0.625rem 0.625rem 1.25rem;
+    padding: 20px 30px;
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
@@ -54,26 +71,16 @@ header {
     color: #141414;
     text-align: center;
     font-family: Poppins;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 300;
     line-height: 3.4375rem;
 }
 
-
-.nav-bar ul li a {
-    padding: 10px 30px;
-    color: #141414;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 3.4375rem;
-    /* 343.75% */
-    letter-spacing: -0.02rem;
-    text-decoration: none;
-
+.nav-bar ul .btn .fa-arrow-right {
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: rotate(-45deg);
 }
 
 /* animation css */
