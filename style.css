@@ -1,4 +1,80 @@
 /* index css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    height: 100vh;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4.5rem;
+    background-color: red;
+    height: auto;
+}
+
+.nav-bar .logo {
+    width: 4.6875rem;
+    height: 4.6875rem;
+    flex-shrink: 0;
+}
+
+.nav-bar ul {
+    display: flex;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.875rem;
+}
+
+.nav-bar ul li {
+    list-style: none;
+}
+
+.nav-bar ul .btn {
+    display: flex;
+    height: 2.1875rem;
+    padding: 0.625rem 0.625rem 0.625rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1rem;
+    background: #F48300;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    color: #141414;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 3.4375rem;
+}
+
+
+.nav-bar ul li a {
+    padding: 10px 30px;
+    color: #141414;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.4375rem;
+    /* 343.75% */
+    letter-spacing: -0.02rem;
+    text-decoration: none;
+
+}
 
 /* animation css */
 
