@@ -147,15 +147,58 @@ header {
 
 }
 
-.btn button {
-    border: none;
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.btn {
+    height: 50px;
+}
+
+.btn .btn-1 {
     background-color: #F48300;
+    padding: 10px 40px;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: #141414;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+
+.btn .btn-2 {
+    background-color: #fff;
+    border: 1px solid #F48300;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
     padding: 10px 30px;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #141414;
+}
+
+.btn .btn-2:hover {
+    background-color: #F48300;
+    border: 1px solid #fff;
 }
 
 .btn button a {
