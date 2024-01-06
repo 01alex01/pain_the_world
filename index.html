@@ -18,30 +18,21 @@
 
 <body>
     <header>
-
-        <div class="navbar">
-            <div class="logo">
-                <img src="./img/logo.png" alt="Logo">
+        <nav class="navbar">
+            <div class="navbar-container container">
+                <input type="checkbox" name="" id="">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="menu-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <a class="btn2" href="/">Donate <i class="fa-solid fa-arrow-right"></i></a>
+                </ul>
+                <img class="logo" src="./img/logo.png" alt="">
             </div>
-            <div class="icon open"><i class="fa-solid fa-bars-staggered"></i></div>
-            <ul class="nav-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Contact</a></li>
-                <a href="/">Donate</a>
-            </ul>
-            <div class="icon close"><i class="fa-solid fa-xmark"></i></div>
-        </div>
-
-
-        <nav class="nav-bar">
-            <div>
-                <img class="logo" src="./img/logo.png" alt="logo img">
-            </div>
-            <ul class="nav-list">
-                <li><a href="/">Home</a></li>
-                <li><a href="/">Contact us</a></li>
-                <a class="btn" href="/">DONATE <i class="fa-solid fa-arrow-right"></i></a>
-            </ul>
         </nav>
 
         <div class="hero">
@@ -70,7 +61,14 @@
 
 
     <script>
-
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
     </script>
 </body>
 
