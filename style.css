@@ -10,10 +10,11 @@ html {
 }
 
 header {
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-bottom: 14rem;
 }
 
 /* ===NAVIGATION BAR */
@@ -241,6 +242,66 @@ header {
     height: 600px;
     width: 100%;
     object-fit: contain;
+}
+
+/* ==========================illuminating */
+/* ==========================illuminating */
+.illuminating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0rem 4rem;
+}
+
+.illuminating-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+}
+
+.illuminating-1-a {
+    height: 10rem;
+}
+
+.illuminating-1-a h2 {
+    color: #141414;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Playfair Display;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.4375rem;
+    /* 137.5% */
+    letter-spacing: -0.075rem;
+}
+
+.illuminating-1-a p {
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+
+    /* 110% */
+
+}
+
+.illuminating-1-a h2 span {
+    color: #F48300;
+}
+
+.illuminating-1-b {
+    width: 100%;
+    height: ;
+}
+
+.illuminating-1-b img {
+    height: 100%;
+    width: 100%;
 }
 
 /* animation css */
