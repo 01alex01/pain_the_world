@@ -304,6 +304,93 @@ header {
     width: 100%;
 }
 
+/* =================================ABOUT SECTION */
+/* =================================ABOUT SECTION */
+.about {
+    background-color: #FEF6AC;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: .345%;
+}
+
+.about-1_a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    padding: 2%;
+}
+
+.about-1_a-i {
+    width: 45%;
+}
+
+.about-1_a-i h3 {
+    color: #141414;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Playfair Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.4375rem;
+    /* 137.5% */
+    letter-spacing: -0.075rem;
+}
+
+.about-1_a-i p {
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+
+    /* 110% */
+    letter-spacing: -0.025rem;
+}
+
+.about-1_a-ii {
+    width: 45%;
+}
+
+.about-1_a-ii h3 {
+    color: #141414;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Playfair Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.4375rem;
+    /* 137.5% */
+    letter-spacing: -0.075rem;
+}
+
+.about-1_a-ii p {
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    /* 110% */
+    letter-spacing: -0.025rem;
+}
+
+.about-2 img {
+    width: 100%;
+    height: 100%;
+}
+
 /* animation css */
 
 /* responsiveness css */
