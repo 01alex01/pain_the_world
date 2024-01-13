@@ -314,6 +314,7 @@ header {
     flex-direction: column;
     gap: 1.5rem;
     padding: .345%;
+    margin-bottom: 4rem;
 }
 
 .about-1_a {
@@ -368,7 +369,7 @@ header {
     leading-trim: both;
     text-edge: cap;
     font-family: Playfair Display;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 500;
     line-height: 3.4375rem;
@@ -389,6 +390,79 @@ header {
 .about-2 img {
     width: 100%;
     height: 100%;
+}
+
+/* ========================MOVEMENT */
+/* ========================MOVEMENT */
+.movement {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 5rem;
+    align-items: center;
+
+}
+
+.movement-a {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 40%;
+    margin-right: 2rem;
+}
+
+.movement h2 {
+    color: #141414;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Playfair Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.4375rem;
+    /* 137.5% */
+    letter-spacing: -0.05rem;
+}
+
+.movement p {
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    /* 110% */
+    letter-spacing: -0.025rem;
+    width: 39.1875rem;
+}
+
+.movement-b {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    padding: 2%;
+}
+
+.cta-1 {
+    width: 30%;
+    border: none;
+    padding: .8rem 1.25rem .8rem 1.875rem;
+    border-radius: 1.125rem;
+    background: #FC8300;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
+}
+
+.cta-2 {
+    width: 45%;
+    border: 1px solid #FC8300;
+    padding: .8rem 1.25rem .8rem 1.875rem;
+    border-radius: 1.125rem;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
 }
 
 /* animation css */
@@ -571,6 +645,7 @@ header {
     /* ===============================ILLUMINATING */
     .illuminating {
         gap: 2.5rem;
+        margin-bottom: 4rem;
     }
 
     .illuminating-1 {
@@ -610,6 +685,100 @@ header {
 
     .illuminating-2 {
         flex-direction: column;
+    }
+
+    /* =====================ABOUT SECTION */
+    /* =====================ABOUT SECTION */
+    .about {
+
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: .345%;
+    }
+
+    .about-1_a {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .about-1_a-i {
+        width: 100%;
+    }
+
+    .about-1_a-i p {
+
+        font-size: 1.5rem;
+
+        font-weight: 300;
+        letter-spacing: -0.025rem;
+    }
+
+    .about-1_a-ii {
+        width: 100%;
+    }
+
+    .about-1_a-ii p {
+
+        font-size: 1.5rem;
+
+        font-weight: 300;
+        letter-spacing: -0.025rem;
+    }
+
+    /* ==========movement */
+    /* ==========movement */
+    .movement {
+        flex-direction: column;
+        padding: 0rem 0rem;
+        align-items: flex-end;
+    }
+
+    .movement-a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0rem 0rem;
+        gap: 1rem;
+        width: 100%;
+        margin-right: 2rem;
+    }
+
+    .movement {
+        width: 100%;
+    }
+
+    .movement-a h2 {
+        text-align: left;
+        width: 80%;
+    }
+
+    .movement p {
+        color: #1E1E1E;
+        font-family: Poppins;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2rem;
+        letter-spacing: -0.025rem;
+        width: 80%;
+    }
+
+    .movement-b {
+        width: 100%;
+    }
+
+    .movement-b .cta-1 {
+        width: 70%;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .movement-b .cta-2 {
+        width: 80%;
+        font-size: 1rem;
+        text-align: left;
     }
 }
 
