@@ -67,26 +67,29 @@
                 </div>
             </div>
         </div>
-
-        <section class="contact-form">
-            <h2> <span class="span1">
-                    If you have any question,
-                </span>
-                <span class="span2"> please do not hesitate to send Alex a message</span>
-            </h2>
+        <div class="contactUs-social">
+            <a href="/">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="/">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+        <section class="contactUs-form">
 
             <form action="#" method="POST">
+                <label for="name">Name</label>
+                <input type="Your name" id="name" name="name" placeholder="e.g John Doe" required>
 
-                <input type="Your name" id="name" name="name" placeholder="Your name" required>
+                <label for="Email">Email</label>
+                <input type="Your email" id="name" name="name" placeholder="e.g johndoe@gmail.com" required>
+
+                <!-- 
+                <input type="Your phone" id="name" name="name" placeholder="Your phone" required> -->
 
 
-                <input type="Your email" id="name" name="name" placeholder="Your email" required>
-
-
-                <input type="Your phone" id="name" name="name" placeholder="Your phone" required>
-
-
-                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Your message"></textarea>
+                <textarea id="comments" name="comments" rows="4" cols="50"
+                    placeholder="Your message goes here..."></textarea>
 
                 <button type="submit">Submit</button>
             </form>
