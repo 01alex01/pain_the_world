@@ -465,7 +465,164 @@ header {
     white-space: nowrap;
 }
 
+/*footer section */
+/*footer section */
+/*footer section */
+footer {
+    display: flex;
+    width: 100%;
+    height: 14.625rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 5rem 5rem;
+    background-color: #FEF6AC;
+    padding-right: 20.1rem;
+}
+
+footer img {
+    width: 6.1875rem;
+    height: 6.25rem;
+    flex-shrink: 0;
+}
+
+.footer-list {
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer-list a {
+    color: #141414;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.4375rem;
+    text-decoration: none;
+
+}
+
+.footer-list .btn4 {
+    display: flex;
+    height: 3rem;
+    width: 10rem;
+    padding: 0.625rem 0.625rem 0.625rem 1.25rem;
+    justify-content: left;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1rem;
+    background: #F48300;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    text-align: left;
+}
+
+.footer-conatct {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-contact_1 {
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact_1 i {
+    font-size: 3rem;
+}
+
+.footer-contact_1 h1 {
+    color: #141414;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Playfair Display";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.045rem;
+    text-align: left;
+}
+
+.footer-contact_1 h1 span {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    /* 343.75% */
+    letter-spacing: -0.03rem;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-social a {
+    text-decoration: none;
+}
+
+.footer-social a .fa-youtube {
+    color: red;
+    font-size: 3.3rem;
+}
+
+.footer-social a .fa-facebook {
+    color: blue;
+    font-size: 3.3rem;
+}
+
 /* animation css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsiveness css */
 
