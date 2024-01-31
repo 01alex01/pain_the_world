@@ -804,6 +804,11 @@ form button {
 
 
 @media (max-width: 829px) {
+
+    header {
+        margin-bottom: 5rem;
+    }
+
     .navbar {
         opacity: 0.95;
     }
@@ -946,238 +951,250 @@ form button {
         padding: 0rem 1rem;
         justify-content: space-between;
     }
+}
 
-    @media (max-width: 500px) {
-        .navbar-container input[type="checkbox"]:checked~.logo {
-            display: none;
-        }
 
-        /* ==========================HEADER */
-        /* ==========================HEADER */
-        header {
-            height: 10%;
-            display: flex;
-            flex-direction: column;
-            gap: 11.62rem;
-            margin-bottom: 5rem;
-        }
 
-        .hero_text {
 
-            gap: 1rem;
-        }
 
-        .hero_text h1 {
-            color: #141414;
-            text-align: center;
-            font-family: Playfair Display;
-            font-size: 3rem;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 4rem;
-            /* 100% */
-            letter-spacing: .1rem;
-        }
 
-        .hero_text p {
-            font-family: Poppins;
-            font-size: 1.5rem;
-            font-weight: 400;
-            line-height: 22px;
-            letter-spacing: -0.02em;
-            text-align: center;
 
-        }
 
-        .hero_img img {
-            height: 100%;
-            width: 100%;
-            object-fit: contain;
-        }
 
-        /* ===============================ILLUMINATING */
-        /* ===============================ILLUMINATING */
-        .illuminating {
-            gap: 2.5rem;
-            margin-bottom: 4rem;
-        }
 
-        .illuminating-1 {
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-            height: 100%;
-            width: 100%;
-            padding: 2%;
-        }
 
-        .illuminating-1 h2 {
-            color: #141414;
-            leading-trim: both;
-            text-edge: cap;
-            font-family: Playfair Display;
-            font-size: 2.75rem;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 2.125rem;
-            /* 121.429% */
-            letter-spacing: -0.0525rem;
-            width: 100%;
-        }
 
-        .illuminating-1 p {
-            color: #1E1E1E;
-            font-family: Poppins;
-            font-size: 2rem;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 2.375rem;
-            /* 137.5% */
-            letter-spacing: -0.02rem;
-            width: 100%;
-        }
-
-        .illuminating-2 {
-            flex-direction: column;
-        }
-
-        /* =====================ABOUT SECTION */
-        /* =====================ABOUT SECTION */
-        .about {
-
-            flex-direction: column;
-            gap: 1.5rem;
-            padding: .345%;
-        }
-
-        .about-1_a {
-            flex-direction: column;
-            justify-content: center;
-            width: 100%;
-            gap: 1rem;
-        }
-
-        .about-1_a-i {
-            width: 100%;
-        }
-
-        .about-1_a-i p {
-
-            font-size: 1.5rem;
-
-            font-weight: 300;
-            letter-spacing: -0.025rem;
-        }
-
-        .about-1_a-ii {
-            width: 100%;
-        }
-
-        .about-1_a-ii p {
-
-            font-size: 1.5rem;
-
-            font-weight: 300;
-            letter-spacing: -0.025rem;
-        }
-
-        /* ==========movement */
-        /* ==========movement */
-        .movement {
-            flex-direction: column;
-            padding: 0rem 0rem;
-            align-items: flex-end;
-        }
-
-        .movement-a {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 0rem 0rem;
-            gap: 1rem;
-            width: 100%;
-            margin-right: 2rem;
-        }
-
-        .movement {
-            width: 100%;
-        }
-
-        .movement-a h2 {
-            text-align: left;
-            width: 80%;
-        }
-
-        .movement p {
-            color: #1E1E1E;
-            font-family: Poppins;
-            font-size: 1.25rem;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 2rem;
-            letter-spacing: -0.025rem;
-            width: 80%;
-        }
-
-        .movement-b {
-            width: 100%;
-        }
-
-        .movement-b .cta-1 {
-            width: 70%;
-            font-size: 1rem;
-            text-align: left;
-        }
-
-        .movement-b .cta-2 {
-            width: 80%;
-            font-size: 1rem;
-            text-align: left;
-        }
-
-        /* FOOTER=============================== */
-        /* FOOTER=============================== */
-        /* FOOTER=============================== */
-        footer {
-            height: 100%;
-            flex-direction: column;
-            gap: 1.5rem;
-        }
-
-        /* CONATCT CSS */
-        /* CONATCT CSS */
-        .contactUs-box {
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-        }
-
-        .contactUs-form form {
-            padding: 5%;
-        }
-
-        .contactUs-form form input::placeholder {
-            padding-left: 2rem;
-        }
-
-        .contactUs-form form input {
-            width: 100%;
-            height: 2.5rem;
-            flex-shrink: 0;
-        }
-
-        form textarea {
-            width: 100%;
-            height: 22.75rem;
-            border-radius: 0.375rem;
-            background: #FFF;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10);
-            border: none;
-        }
-
-        form textarea::placeholder {
-            padding-left: 2rem;
-        }
+@media (max-width: 500px) {
+    .navbar-container input[type="checkbox"]:checked~.logo {
+        display: none;
     }
 
-    /* contact css */
+    /* ==========================HEADER */
+    /* ==========================HEADER */
+    header {
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 11.62rem;
+        margin-bottom: 5rem;
+    }
+
+    .hero_text {
+
+        gap: 1rem;
+    }
+
+    .hero_text h1 {
+        color: #141414;
+        text-align: center;
+        font-family: Playfair Display;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 4rem;
+        /* 100% */
+        letter-spacing: .1rem;
+    }
+
+    .hero_text p {
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+        text-align: center;
+
+    }
+
+    .hero_img img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    /* ===============================ILLUMINATING */
+    /* ===============================ILLUMINATING */
+    .illuminating {
+        gap: 2.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .illuminating-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        height: 100%;
+        width: 100%;
+        padding: 2%;
+    }
+
+    .illuminating-1 h2 {
+        color: #141414;
+        leading-trim: both;
+        text-edge: cap;
+        font-family: Playfair Display;
+        font-size: 2.75rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2.125rem;
+        /* 121.429% */
+        letter-spacing: -0.0525rem;
+        width: 100%;
+    }
+
+    .illuminating-1 p {
+        color: #1E1E1E;
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.375rem;
+        /* 137.5% */
+        letter-spacing: -0.02rem;
+        width: 100%;
+    }
+
+    .illuminating-2 {
+        flex-direction: column;
+    }
+
+    /* =====================ABOUT SECTION */
+    /* =====================ABOUT SECTION */
+    .about {
+
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: .345%;
+    }
+
+    .about-1_a {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .about-1_a-i {
+        width: 100%;
+    }
+
+    .about-1_a-i p {
+
+        font-size: 1.5rem;
+
+        font-weight: 300;
+        letter-spacing: -0.025rem;
+    }
+
+    .about-1_a-ii {
+        width: 100%;
+    }
+
+    .about-1_a-ii p {
+
+        font-size: 1.5rem;
+
+        font-weight: 300;
+        letter-spacing: -0.025rem;
+    }
+
+    /* ==========movement */
+    /* ==========movement */
+    .movement {
+        flex-direction: column;
+        padding: 0rem 0rem;
+        align-items: flex-end;
+    }
+
+    .movement-a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0rem 0rem;
+        gap: 1rem;
+        width: 100%;
+        margin-right: 2rem;
+    }
+
+    .movement {
+        width: 100%;
+    }
+
+    .movement-a h2 {
+        text-align: left;
+        width: 80%;
+    }
+
+    .movement p {
+        color: #1E1E1E;
+        font-family: Poppins;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2rem;
+        letter-spacing: -0.025rem;
+        width: 80%;
+    }
+
+    .movement-b {
+        width: 100%;
+    }
+
+    .movement-b .cta-1 {
+        width: 70%;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .movement-b .cta-2 {
+        width: 80%;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    /* FOOTER=============================== */
+    /* FOOTER=============================== */
+    /* FOOTER=============================== */
+    footer {
+        height: 100%;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    /* CONATCT CSS */
+    /* CONATCT CSS */
+    .contactUs-box {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .contactUs-form form {
+        padding: 5%;
+    }
+
+    .contactUs-form form input::placeholder {
+        padding-left: 2rem;
+    }
+
+    .contactUs-form form input {
+        width: 100%;
+        height: 2.5rem;
+        flex-shrink: 0;
+    }
+
+    form textarea {
+        width: 100%;
+        height: 22.75rem;
+        border-radius: 0.375rem;
+        background: #FFF;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10);
+        border: none;
+    }
+
+    form textarea::placeholder {
+        padding-left: 2rem;
+    }
+}
+
+/* contact css */
