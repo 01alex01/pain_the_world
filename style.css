@@ -79,6 +79,7 @@ header {
     font-style: normal;
     font-weight: 300;
     line-height: 3.4375rem;
+    cursor: pointer;
 }
 
 .menu-items .btn2 .fa-solid {
@@ -519,6 +520,7 @@ footer img {
     background: #F48300;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     text-align: left;
+    cursor: pointer;
 }
 
 .footer-conatct {
@@ -739,7 +741,7 @@ form textarea {
     border-radius: 0.375rem;
     background: #FFF;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10);
-    border: none;
+    border: 1px solid #fff;
 }
 
 form button {
@@ -758,16 +760,103 @@ form button {
     cursor: pointer;
 }
 
-/* animation css */
+form textarea::placeholder {
+    padding: 2%;
+}
+
+form input::placeholder {
+    padding: 2%;
+}
+
+form textarea[type=text]:focus {
+    border: 3px solid #FC8300;
+}
 
 
 
+/* =================POPUP */
+/* =================POPUP */
+/* =================POPUP */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: invert(40%);
+    z-index: 999;
+}
 
+.popup-content {
+    background-color: white;
+    width: 80%;
+    max-width: 500px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    gap: 1.25rem;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
 
+.popup-content img {
+    width: 214px;
+    height: 69.51px;
+}
 
+.popup-content p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-align: center;
 
+}
 
+.popup-content button {
+    border: 1px solid #F48300;
+    background: none;
+    padding: 2%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+}
 
+.popup-content button a {
+    text-decoration: none;
+    color: #333;
+}
+
+.popup-content .close-button {
+    border: none;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
 
 
 
