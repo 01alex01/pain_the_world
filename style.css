@@ -784,7 +784,7 @@ form textarea[type=text]:focus {
     left: 0;
     width: 100%;
     height: 100vh;
-    backdrop-filter: invert(40%);
+    backdrop-filter: blur(20px);
     z-index: 999;
 }
 
